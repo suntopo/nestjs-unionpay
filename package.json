@@ -1,0 +1,45 @@
+{
+  "name": "@cubi/nestjs-unionpay",
+  "version": "1.0.2-alpha.0",
+  "description": "The unionpay module for nestjs framework",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suntopo/nestjs-unionpay.git"
+  },
+  "keywords": [
+    "unionpay",
+    "unionpay-sdk",
+    "银联",
+    "银联开发包",
+    "银联支付",
+    "nestjs",
+    "nestjs-unionpay"
+  ],
+  "author": "SUNTOPO",
+  "license": "ISC",
+  "dependencies": {
+    "@cubi/unionpay": "^1.0.1",
+    "@nestjs/common": "^5.7.3",
+    "jest": "^24.5.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^10.14.1",
+    "@types/request": "^2.48.1",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a97b0af6a3ffd1eb6b5f74dbf226481ed0dbb8e1"
+}
